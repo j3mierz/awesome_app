@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<h3>{{ message }}</h3>
+<form method="post">
+    <label for="digit_1">podaj liczbę</label>
+    <input type="text" name="digit_1" id="digit_1">
+    <label for="digit_2">podaj liczbę</label>
+    <input type="text" name="digit_2" id="digit_2">
+
+    <label for="s1"></label>
+    <select name="operation" id="s1">
+        <option value="-">-</option>
+        <option value="+">+</option>
+        <option value="*">*</option>
+        <option value="/">/</option>f
+    </select>
+
+        <button type="submit">wyślij</button>
+
+</form>
+
+<h2>Wynik:</h2>
+<h3>{{ result }}</h3>
+
+</body>
+</html>
